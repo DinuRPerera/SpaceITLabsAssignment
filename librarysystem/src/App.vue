@@ -1,20 +1,16 @@
 <template>
   <div>
       <app-nav></app-nav>
-      <div id="app">
-      <h1>{{ msg }}</h1>
-</div>
+      <app-home></app-home>
+
   </div>
 </template>
 
 <script>
-
+import Home from './components/Home.vue'
 export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to ReadMaster'
-    }
+  components:{
+    'app-home' : Home
   }
   
 }
