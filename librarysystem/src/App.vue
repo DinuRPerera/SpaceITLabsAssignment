@@ -1,12 +1,14 @@
 <template>
-  <div id="app">
-    <h1>{{ msg }}</h1>
-   
-
+  <div>
+      <app-nav></app-nav>
+      <div id="app">
+      <h1>{{ msg }}</h1>
+</div>
   </div>
 </template>
 
 <script>
+
 export default {
   name: 'app',
   data () {
@@ -14,7 +16,9 @@ export default {
       msg: 'Welcome to ReadMaster'
     }
   }
+  
 }
+
 </script>
 
 <style>
