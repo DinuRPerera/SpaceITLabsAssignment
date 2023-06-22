@@ -10,9 +10,11 @@
 
 <script>
 import Home from './components/Home.vue'
+import Footer from './Footer.vue';
 export default {
   components:{
     'app-home' : Home
+    
   }
   
 }
