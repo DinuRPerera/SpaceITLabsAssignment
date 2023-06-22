@@ -1,5 +1,5 @@
 <template>
-
+        <body>
     <div class="container">
         <div class="row">
         <form class="form-horizontal">
@@ -16,8 +16,7 @@
 </form>
 </div>
 </div>
-
-
+</body>
 </template>
 
 <script>
@@ -25,5 +24,11 @@
 </script>
 
 <style>
+
+body {
+  background-color: blueviolet;
+  background-size: cover;
+  background-position: center;
+}
 
 </style>
