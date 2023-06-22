@@ -2,6 +2,8 @@
   <div>
       <app-nav></app-nav>
       <app-home></app-home>
+     
+    
 
   </div>
 </template>
